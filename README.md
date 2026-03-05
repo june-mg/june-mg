@@ -1,4 +1,4 @@
-### Hi, I am June.
+### Hi, I am James(June).
 
 I am an IT Support professional advancing into Cloud Engineering. I focus on building automated, secure cloud environments rather than relying on manual console clicks.
 
