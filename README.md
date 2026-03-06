@@ -8,5 +8,4 @@ I am an IT Support professional advancing into Cloud Engineering. I focus on bui
 * Scripting & Automation: PowerShell, Bash
 * Source Control: Git & GitHub
 
-**Current Architecture Project:**
-* The Azure Mega-Lab: Incrementally building a fully automated, multi-tier virtual network with secure storage, dedicated subnets, and strict access controls via Terraform.
+
