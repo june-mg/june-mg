@@ -1,11 +1,6 @@
-### Hi, I am James(June).
+### Hi, I am June Mg.
 
-I am an IT Support professional advancing into Cloud Engineering. I focus on building automated, secure cloud environments rather than relying on manual console clicks.
+I <3 Ai . . . obv. 
 
-**Core Competencies:**
-* Cloud Platform: Microsoft Azure
-* Infrastructure as Code: Terraform
-* Scripting & Automation: PowerShell, Bash
-* Source Control: Git & GitHub
-
+im here to share my talents and passions with the world.
 
