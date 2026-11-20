@@ -3,11 +3,11 @@
   "label": "eMoney",
   "notes": "24-hour posting rule. Every account must post at least once every 24 hours or the ticket gets updated. 3 accounts x 4 platforms = 12 posts/day, about 360/month.",
   "deadline_hours": 24,
-  "confirm_before_posting": "TODO: true (quick yes/no before posting) or false (post right away)",
+  "confirm_before_posting": true,
 
   "caption_rules": {
-    "style": "TODO: tone, length, any required phrases or disclaimers from eMoney",
-    "hashtags": "TODO: required or default hashtags, if any",
+    "style": "Use the caption the eMoney video skill wrote. If none, write a short hook-first caption that matches the deal in the video.",
+    "hashtags": "",
     "youtube_title_max_chars": 100
   },
 
@@ -17,9 +17,9 @@
       "disabledComments": false,
       "disabledDuet": false,
       "disabledStitch": false,
-      "isBrandedContent": "TODO: confirm with eMoney whether these count as branded content",
+      "isBrandedContent": false,
       "isYourBrand": false,
-      "isAiGenerated": "TODO: true if the video uses AI voice/visuals"
+      "isAiGenerated": false
     },
     "instagram": {
       "mediaType": "reel",
@@ -28,7 +28,7 @@
     "youtube": {
       "privacyStatus": "public",
       "shouldNotifySubscribers": true,
-      "containsSyntheticMedia": "TODO: true if the video uses AI voice/visuals"
+      "containsSyntheticMedia": false
     },
     "facebook": {
       "mediaType": "reel"
@@ -37,40 +37,40 @@
 
   "accounts": {
     "pokemon": {
-      "label": "eMoney Pokemon",
+      "label": "Poke Deal Radar (eMoney Pokemon)",
       "platforms": {
-        "tiktok":    { "enabled": true, "handle": "TODO", "blotato_account_id": null },
-        "instagram": { "enabled": true, "handle": "TODO", "blotato_account_id": null },
-        "youtube":   { "enabled": true, "handle": "TODO", "blotato_account_id": null },
-        "facebook":  { "enabled": true, "handle": "TODO", "blotato_account_id": null, "page_id": null }
+        "tiktok":    { "enabled": true, "handle": "@pokedealradar", "blotato_account_id": "70419" },
+        "instagram": { "enabled": true, "handle": "@pokedealradar", "blotato_account_id": "88034" },
+        "youtube":   { "enabled": true, "handle": "Poke deal radar", "blotato_account_id": "58782" },
+        "facebook":  { "enabled": true, "handle": "Poke deal radar", "blotato_account_id": "65733", "page_id": "645324448657774" }
       },
-      "discord": { "channel_name": "TODO", "channel_id": null }
+      "discord": { "channel_name": "", "channel_id": null }
     },
-    "clearance": {
-      "label": "eMoney Clearance",
+    "clearance_faceless": {
+      "label": "The Profit Plug Daily (eMoney Faceless Clearance)",
       "platforms": {
-        "tiktok":    { "enabled": true, "handle": "TODO", "blotato_account_id": null },
-        "instagram": { "enabled": true, "handle": "TODO", "blotato_account_id": null },
-        "youtube":   { "enabled": true, "handle": "TODO", "blotato_account_id": null },
-        "facebook":  { "enabled": true, "handle": "TODO", "blotato_account_id": null, "page_id": null }
+        "tiktok":    { "enabled": true, "handle": "@theprofitplugdaily", "blotato_account_id": "70422" },
+        "instagram": { "enabled": true, "handle": "@theprofitplugdaily", "blotato_account_id": "58465" },
+        "youtube":   { "enabled": true, "handle": "The profit plug daily", "blotato_account_id": "58784" },
+        "facebook":  { "enabled": true, "handle": "The Profit Plug Daily", "blotato_account_id": "65733", "page_id": "107527592312892" }
       },
-      "discord": { "channel_name": "TODO", "channel_id": null }
+      "discord": { "channel_name": "", "channel_id": null }
     },
-    "ugc_face": {
-      "label": "eMoney UGC Face",
+    "clearance_ugc": {
+      "label": "June Resells (eMoney UGC Clearance)",
       "platforms": {
-        "tiktok":    { "enabled": true, "handle": "TODO", "blotato_account_id": null },
-        "instagram": { "enabled": true, "handle": "TODO", "blotato_account_id": null },
-        "youtube":   { "enabled": true, "handle": "TODO", "blotato_account_id": null },
-        "facebook":  { "enabled": true, "handle": "TODO", "blotato_account_id": null, "page_id": null }
+        "tiktok":    { "enabled": true, "handle": "@juneresells", "blotato_account_id": "70423" },
+        "instagram": { "enabled": true, "handle": "@june.resells", "blotato_account_id": "88027" },
+        "youtube":   { "enabled": true, "handle": "June Resells", "blotato_account_id": "58786" },
+        "facebook":  { "enabled": true, "handle": "June resells", "blotato_account_id": "65733", "page_id": "1407378135797240" }
       },
-      "discord": { "channel_name": "TODO", "channel_id": null }
+      "discord": { "channel_name": "", "channel_id": null }
     }
   },
 
   "discord": {
     "enabled": true,
-    "mode": "TODO: blotato (auto-post via Blotato Discord connection) or manual (I hand you the message to paste)",
+    "mode": "manual",
     "blotato_account_id": null,
     "message_template": "{account_label} posted {date}\nTikTok: {tiktok_url}\nInstagram: {instagram_url}\nYouTube: {youtube_url}\nFacebook: {facebook_url}"
   }

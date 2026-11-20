@@ -20,4 +20,12 @@ After a video is finished in Claude, say something like:
 
 ## eMoney status
 
-Blocked until the Pokémon, Clearance and UGC Face profiles on TikTok, Instagram, YouTube and Facebook are connected in Blotato. Every `TODO` and `null` in `brands/emoney.json` has to be filled in before it can post.
+All 12 profiles are connected and filled in:
+
+| Account | Key | TikTok | Instagram | YouTube | Facebook |
+|---|---|---|---|---|---|
+| Pokémon | `pokemon` | @pokedealradar | @pokedealradar | Poke deal radar | Poke deal radar |
+| Faceless Clearance | `clearance_faceless` | @theprofitplugdaily | @theprofitplugdaily | The profit plug daily | The Profit Plug Daily |
+| UGC Clearance | `clearance_ugc` | @juneresells | @june.resells | June Resells | June resells |
+
+Discord is manual: the engine prints a message ready to paste.

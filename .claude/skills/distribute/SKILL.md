@@ -20,7 +20,7 @@ One engine, one setup file per brand. The engine never changes per brand. Everyt
 2. Stop and tell June exactly what is missing if any of these are true for the chosen account:
    - an `enabled` platform has `blotato_account_id` set to `null`, or a value starting with `TODO`
    - a Facebook target has no `page_id`
-   - Discord is `enabled` but has no `channel_id` for this account
+   - Discord `mode` is `blotato` but this account has no `channel_id` (not needed for `manual`)
 3. Call `blotato_list_accounts` and confirm every `blotato_account_id` (and Facebook `page_id`) in the file still exists. If one is gone, stop and say which profile got disconnected. Do not post to the rest and leave one out without saying so.
 
 ## Step 1. Confirm (if the brand asks for it)
