@@ -11,7 +11,7 @@ One engine, one setup file per brand. The engine never changes per brand. Everyt
 
 - **Video**: a finished mp4 (local path in this session, or a public URL).
 - **Brand**: which file in `distribution/brands/` (for example `emoney`).
-- **Account**: which account inside that brand (for example `pokemon`, `clearance`, `ugc_face`). If the video came from a skill that already knows the account, use that. Otherwise ask. Never guess the account.
+- **Account**: which account inside that brand (for eMoney: `pokemon`, `clearance_faceless`, `clearance_ugc`). If the video came from a skill that already knows the account, use that. Otherwise ask. Never guess the account.
 - **Caption / title**: from the video skill if it wrote one. Otherwise write one using the brand's `caption_rules`, then show it in the confirmation step.
 
 ## Step 0. Load and check the brand file

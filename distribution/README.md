@@ -11,6 +11,10 @@ After a video is finished in Claude, say something like:
 
 > post this to emoney pokemon
 
+## Account-level skill (for Claude Projects and regular chats)
+
+The repo skill only loads in Claude Code sessions with this repo. To use it anywhere in Claude, run `distribution/build_skill.sh` and upload `distribution/distribute-skill.zip` in Claude under Settings, then Skills. After changing the engine or a brand file, rebuild and re-upload, or the uploaded copy goes stale.
+
 ## Adding a new brand
 
 1. Copy `brands/emoney.json` to `brands/<new-brand>.json`.
